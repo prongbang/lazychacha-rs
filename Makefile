@@ -1,9 +1,11 @@
 login:
 	cargo login
+	# please paste the token found on https://crates.io/me below
+    # token
 
 config_token:
-	vim ~/.cargo/credentials.toml
-	vim ~/.zshrc
+	code ~/.cargo/credentials.toml
+	code ~/.zshrc
 	# export CARGO_REGISTRY_TOKEN=token
 
 publish:
